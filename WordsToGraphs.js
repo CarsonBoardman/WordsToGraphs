@@ -22,7 +22,10 @@ const graphs = {
     y=0\\left\\{`+(x-0.5)+`\\le x\\le`+(x+0.5)+`\\right\\}`},
     f: function(x,y){return `y=2\\left\\{`+(x-0.5)+`\\le x\\le`+(x+0.5)+`\\right\\}
     y=1\\left\\{`+(x-0.5)+`\\le x\\le`+(x+0.25)+`\\right\\}
-    x=`+(x-0.5)+`\\left\\{0\\le y\\le2\\right\\}`}
+    x=`+(x-0.5)+`\\left\\{0\\le y\\le2\\right\\}`},
+    g: function(x,y){return `\\left(x-`+x+`\\right)^{2}+\\left(y-1\\right)^{2}=1\\left\\{x\\le`+(x+0.75)+`\\right\\}
+    x=`+(x+0.75)+`\\left\\{0.35\\le y\\le1\\right\\}
+    y=1\\left\\{`+x+`\\le x\\le`+(x+0.75)+`\\right\\}`}
 }
 //main function here:
 //outputs a string that can be pasted in desmos graphing calculator
